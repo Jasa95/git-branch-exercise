@@ -1,17 +1,23 @@
-/* CSS til at fylde skærmens højde og lave smooth scrolling: */
 html, body {
 height: 100%;
 }
 
-#html-section,
-#css-section,
-#javascript-section,
-#tools-section {
+#html-section {
+height: 100%;
+scroll-behavior: smooth;    
+}
+
+#javascript-section {
 height: 100%;
 scroll-behavior: smooth;
 }
-/* 
-Commit messages:
-"add sections"
-"add header + menu"
-"add CSS" */
+
+#CSS-section {
+height: 100%;
+scroll-behavior: smooth;
+}
+
+#tool-section {
+height: 100%;
+scroll-behavior: smooth;    
+}
