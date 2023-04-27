@@ -1,3 +1,17 @@
-body {
-    background-color: cornflowerblue;
+/* CSS til at fylde skærmens højde og lave smooth scrolling: */
+html, body {
+height: 100%;
 }
+
+#html-section,
+#css-section,
+#javascript-section,
+#tools-section {
+height: 100%;
+scroll-behavior: smooth;
+}
+/* 
+Commit messages:
+"add sections"
+"add header + menu"
+"add CSS" */
